@@ -1,6 +1,6 @@
 #Taylor Howard
 #September 12, 2020
-#CIS2348
+#CIS2348 Python
 #AmauryLendasse
 
 #Stating the Title of the Code/ Purpose
