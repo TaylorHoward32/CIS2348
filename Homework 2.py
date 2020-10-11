@@ -11,6 +11,8 @@ month_list = {"January": "1", "February": "2", "March": "3", "April": "4", "May"
 # Open the input file that was given with dates
 input_file = open('/Users/taylorhoward/UH/CIS2348/InputDates.txt', 'r')
 
+#To save the parsing dates from input file
+output_file= open('/Users/taylorhoward/UH/CIS2348/parsedDates.txt')
 
 for each in input_file:
     if each != "-1":
@@ -29,5 +31,5 @@ for each in input_file:
                     ans = month_number + "/" + day + "/" + year
 
 
-
+output_file.close()
 input_file.close()
