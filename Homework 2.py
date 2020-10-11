@@ -12,7 +12,7 @@ month_list = {"January": "1", "February": "2", "March": "3", "April": "4", "May"
 input_file = open('/Users/taylorhoward/UH/CIS2348/InputDates.txt', 'r')
 
 #To save the parsing dates from input file
-output_file= open('/Users/taylorhoward/UH/CIS2348/parsedDates.txt')
+output_file= open('')
 
 for each in input_file:
     if each != "-1":
